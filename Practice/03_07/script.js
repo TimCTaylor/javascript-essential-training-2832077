@@ -7,3 +7,15 @@
  * - Find an object that has another object inside of it to create a nested object.
  * - Test your objects in the browser console by accessing the entire object and its specific properties.
  */
+
+
+const meal = {
+    mealType: "dinner",
+    calories: 999,
+    ingredients: ["sugar", "wheat flour", "chicken"],
+    avgRating: {  
+        taste: 3.4,
+        health: 2.1,
+        cost: 9.0     
+    }
+};
