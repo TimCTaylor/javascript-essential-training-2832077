@@ -7,7 +7,7 @@
  * - Test the objecs by calling their properties and using their methods in the console.
  */
 
-import Meal from "./Meal";
+import Meal from "./Meal.js";
 import Backpack from "./Backpack.js";
 
 const everydayPack = new Backpack(

@@ -21,7 +21,24 @@ class Meal {
     setName(newName) {
       this.name = newName;
     }
-  }
+  };
   
+
+class Dinner extends Meal {
+    constructor(
+        name,
+        calories,
+        cost,
+        pint
+    ) {
+        super( name, calories, cost);
+        this.pint = pint;
+    }
+    setPint(newPint) {
+        this.pint = newPint;
+      }
+  
+}
+
   export default Meal;
   
